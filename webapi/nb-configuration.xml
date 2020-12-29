@@ -1,0 +1,22 @@
+@IndexColumn(name="idx")<?xml version="1.0" encoding="UTF-8"?>
+<project-shared-configuration>
+    <!--
+    This file contains additional configuration written by modules in the NetBeans IDE.
+    The configuration is intended to be shared among all the users of project and
+    therefore it is assumed to be part of version control checkout.
+    Without this configuration present, some functionality in the IDE may be limited or fail altogether.
+    -->
+    <config-data xmlns="http://www.netbeans.org/ns/maven-config-data/1">
+        <configurations>
+            <configuration id="CTE" profiles="CTE"/>
+            <property name="env">CTE</property>
+            <configuration id="DEVELOPMENT" profiles="DEVELOPMENT">
+                <property name="env">DEVELOPMENT</property>
+            </configuration>
+            <configuration id="PRODUCTION" profiles="PRODUCTION"/>
+            <property name="env">PRODUCTION</property>
+            <configuration id="QA" profiles="QA"/>
+            <property name="env">QA</property>
+        </configurations>
+    </config-data>
+</project-shared-configuration>
